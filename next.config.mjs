@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export",
   //remove it later
-  images: { unoptimized: true },
+  // images: { unoptimized: true },
 
   compiler: {
     styledComponents: true,

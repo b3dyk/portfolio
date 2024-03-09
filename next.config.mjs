@@ -7,6 +7,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  basePath: "/portfolio",
 };
 
 export default nextConfig;

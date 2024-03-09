@@ -34,7 +34,7 @@ const fadeIn = keyframes`
 
 export const HeroSection = styled.section<SectionProps>`
   --_tw-characters: ${(p) => p.$length};
-  --_tw-speed: calc((var(--_tw-characters) / 7) * 1000ms);
+  --_tw-speed: calc((var(--_tw-characters) / 12) * 1000ms);
   --_tw-delay: 1000ms;
   padding-top: 250px;
   padding-bottom: 250px;
@@ -82,6 +82,6 @@ export const Subtitle = styled.p`
   opacity: 0;
   transform: translateY(-150%);
 
-  animation: ${fadeIn} 2000ms ease calc(var(--_tw-speed) + var(--_tw-delay))
+  animation: ${fadeIn} 1000ms ease calc(var(--_tw-speed) + var(--_tw-delay))
     forwards;
 `;
